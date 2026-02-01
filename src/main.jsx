@@ -3,13 +3,13 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';       // styles
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';  // ✅ JS for collapse & toggler
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <HashRouter basename="/Blog-_for_developers">
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>,
 );
 

@@ -30,7 +30,7 @@ function TrendingBlogs({blogs}){
     return(
         <Link to={`/blog/${blogs.id}` }>
          <div className="card" style={{width: "20rem"}} >
-            <img src={`/${image}`} className="card-img" alt="..."/>
+            <img src={`${import.meta.env.BASE_URL}${image}`} className="card-img" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">  {blogs.title}</h5>
                 <p className="card-text"> {blogs.description}</p>

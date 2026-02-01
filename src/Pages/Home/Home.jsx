@@ -16,7 +16,7 @@ function Home() {
 
           <Link to="/blogs/Programming">
             <div className="card" style={{ width: "20rem" }}>
-              <img src="/programming.jpg" id="card-img-top" alt="..." />
+              <img src={`${import.meta.env.BASE_URL}programming.jpg`} id="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Programming </h5>
                 {/* <p className="card-text">Some quick.</p>
@@ -27,7 +27,7 @@ function Home() {
 
           <Link to="/blogs/Health">
             <div className="card" style={{ width: "20rem" }}>
-              <img src="/LifeStyle.jpg" id="card-img-top" alt="..." />
+              <img src={`${import.meta.env.BASE_URL}LifeStyle.jpg`} id="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Life Styles </h5>
                 {/* <p className="card-text">Some quick example </p>
@@ -38,7 +38,7 @@ function Home() {
 
           <Link to="/blogs/Cooking">
             <div className="card" style={{ width: "20rem" }}>
-              <img src="/food.jpg" id="card-img-top" alt="..." />
+              <img src={`${import.meta.env.BASE_URL}food.jpg`} id="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Food </h5>
                 {/* <p className="card-text">Some quick example </p>
@@ -49,7 +49,7 @@ function Home() {
 
           <Link to="/blogs/Travelling">
             <div className="card" style={{ width: "20rem" }}>
-              <img src="/Traveling.jpg" id="card-img-top" alt="..." />
+              <img src={`${import.meta.env.BASE_URL}Traveling.jpg`} id="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Travelling</h5>
                 {/* <p className="card-text">Some quick example </p>
