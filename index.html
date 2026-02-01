@@ -8,6 +8,12 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      // Ensure hash is set for HashRouter when visiting root URL
+      if (!window.location.hash || window.location.hash === '#') {
+        window.location.replace(window.location.pathname + '#/');
+      }
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
