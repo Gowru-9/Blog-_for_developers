@@ -1,0 +1,35 @@
+.footer-div{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: thistle;
+    
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 1200px) {
+  /* Large devices: adjustments if needed */
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* Medium devices */
+  .footer-div {
+    height: 90px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Small devices */
+  .footer-div {
+    height: 80px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* Extra small devices */
+  .footer-div {
+    height: 70px;
+  }
+}

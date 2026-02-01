@@ -1,0 +1,38 @@
+.card-img{
+    width: 100%;
+    height: 200px;
+    /* object-fit: cover; */
+}
+.card {
+    width: 20rem;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 1200px) {
+  /* Large devices: adjustments if needed */
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* Medium devices */
+  .card {
+    width: 18rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Small devices */
+  .card {
+    width: 16rem;
+  }
+}
+
+@media (max-width: 575px) {
+  /* Extra small devices */
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .card-img {
+    height: 150px;
+  }
+}

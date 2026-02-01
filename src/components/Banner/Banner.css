@@ -1,0 +1,66 @@
+
+.banner-div{
+    border: 2px solid rgb(21, 1, 121);
+    position: relative;
+    
+}
+
+.banner-div img {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ #title-div{
+    color: thistle;
+    font-size: 3rem;
+   
+ }
+
+/* Media queries for responsiveness */
+@media (min-width: 1200px) {
+  /* Large devices: default styles apply */
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* Medium devices */
+  .banner-div img {
+    height: 600px;
+  }
+  #title-div {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Small devices */
+  .banner-div img {
+    height: 400px;
+  }
+  #title-div {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  /* Extra small devices */
+  .banner-div img {
+    height: 300px;
+  }
+  #title-div {
+    font-size: 1.5rem;
+  }
+}
+ 
+ 
