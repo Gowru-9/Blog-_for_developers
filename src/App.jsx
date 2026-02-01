@@ -4,7 +4,7 @@ import Registration from "./Pages/Registration/registration.jsx";
 import Login from "./Pages/Login/Login.jsx";
 import Navbar from "./components/Navbar/navbar.jsx";
 import CatagoryBlogs from "./Pages/CatagoryBlogs/CatagoryBlog.jsx";
-import Footer from "./components/Footer/Footer.jsx";
+import Footer from "./components/footer/Footer.jsx";
 import { Routes, Route } from "react-router-dom";
 import DedicatedBlog from "./Pages/DedicatedBlog/DedicatedBlog.jsx";
 

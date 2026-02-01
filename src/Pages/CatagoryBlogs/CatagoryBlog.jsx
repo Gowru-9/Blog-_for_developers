@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../../components/Banner/Banner.jsx";
 import TrendingBlogs from "../../components/TrendingBlogs/TrendingBlogs.jsx";
-import Footer from "../../components/Footer/Footer.jsx";
+import Footer from "../../components/footer/Footer.jsx";
 import blogs from "../../components/Utills/MockData.js";
 import "./CatagoryBlog.css";
 import { useParams } from "react-router-dom";
